@@ -20,7 +20,7 @@ Developed by: Moogethshivan G G
 RegisterNumber:  212225040259
 */
 ```
-
+```
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
@@ -66,6 +66,7 @@ print("\nPredicted:", y_pred)
 print("\nAccuracy:", accuracy_score(y_test, y_pred))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
+```
 ## Output:
 <img width="900" height="447" alt="image" src="https://github.com/user-attachments/assets/378380b0-0840-4cfb-8d85-57d1f5e6e657" />
 
